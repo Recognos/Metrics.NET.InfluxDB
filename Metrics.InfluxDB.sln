@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrics.InfluxDB", "Src\Metrics.InfluxDB\Metrics.InfluxDB.csproj", "{1B6C2147-30DB-4C58-AD92-5FD34937F9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrics.InfluxDB.Tests", "Src\Metrics.InfluxDB.Tests\Metrics.InfluxDB.Tests.csproj", "{1D9413B0-4B25-48AC-9298-554284D409DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1555B234-F26A-4035-B319-22B968388198}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\nuget.config = .nuget\nuget.config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6FC413CE-2AD2-4A89-A11E-B8A34112DFEA}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publishing", "Publishing", "{5812CC1A-41DB-4BAA-A7B2-03318A9C6BA2}"
+	ProjectSection(SolutionItems) = preProject
+		create-nuget.bat = create-nuget.bat
+		Publishing\Metrics.NET.InfluxDB.nuspec = Publishing\Metrics.NET.InfluxDB.nuspec
+		Publishing\push-nuget.bat = Publishing\push-nuget.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6C2147-30DB-4C58-AD92-5FD34937F9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6C2147-30DB-4C58-AD92-5FD34937F9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6C2147-30DB-4C58-AD92-5FD34937F9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6C2147-30DB-4C58-AD92-5FD34937F9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9413B0-4B25-48AC-9298-554284D409DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9413B0-4B25-48AC-9298-554284D409DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9413B0-4B25-48AC-9298-554284D409DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9413B0-4B25-48AC-9298-554284D409DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
