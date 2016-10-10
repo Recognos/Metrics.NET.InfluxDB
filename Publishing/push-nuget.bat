@@ -1,0 +1,1 @@
+..\.nuget\nuget.exe push Metrics.NET.InfluxDB.0.3.7.nupkg
