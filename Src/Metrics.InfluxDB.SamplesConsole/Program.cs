@@ -8,7 +8,7 @@ namespace Metrics.InfluxDB.SamplesConsole
         {
             Metric.Config
                 .WithReporting(config => config
-                    .WithInfluxDb(new Uri(""), TimeSpan.FromSeconds(10)));
+                    .WithInfluxDbHttp(new Uri(""), TimeSpan.FromSeconds(10)));
         }
     }
 }
