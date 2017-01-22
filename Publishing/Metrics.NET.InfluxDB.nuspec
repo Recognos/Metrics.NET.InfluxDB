@@ -13,7 +13,7 @@
 		<description>This library provides support for InfluxDB reporters in the Metrics.NET monitoring and reporting library. Supports InfluxDB Line Protocol for InfluxDB v0.9.1 and above, and JSON Protocol for InfluxDB v0.9.1 and below.</description>
 		<summary>InfluxDB reporter integration for the Metrics.NET monitoring and reporting library.</summary>
 		<copyright>Jason O'Bryan, The Recognos Metrics.NET Team</copyright>
-		<tags>influxdb, influx, metrics, measurements, charts, timer, histogram, duration, graphite, health checks</tags>
+		<tags>influxdb, influx, metrics, measurements, charts, timer, histogram, duration, health checks</tags>
 		<dependencies>
 			<dependency id="Metrics.NET" version="0.3.7" />
 		</dependencies>
