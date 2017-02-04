@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
 	<metadata>
-		<id>Metrics.NET.InfluxDB</id>
-		<version>0.3.7</version>
-		<title>Metrics.NET.InfluxDB</title>
+		<id>Metrics.NET.InfluxDbReporting</id>
+		<version>0.5.0-pre</version>
+		<title>Metrics.NET.InfluxDbReporting</title>
 		<authors>Jason O'Bryan, The Recognos Metrics.NET Team</authors>
 		<owners>Jason O'Bryan, The Recognos Metrics.NET Team</owners>
 		<licenseUrl>https://github.com/Recognos/Metrics.NET.InfluxDB/blob/master/LICENSE</licenseUrl>
@@ -15,7 +15,7 @@
 		<copyright>Jason O'Bryan, The Recognos Metrics.NET Team</copyright>
 		<tags>influxdb, influx, metrics, measurements, charts, timer, histogram, duration, health checks</tags>
 		<dependencies>
-			<dependency id="Metrics.NET" version="0.3.7" />
+			<dependency id="Metrics.NET" version="0.5.0-pre" />
 		</dependencies>
 	</metadata>
 	<files>
