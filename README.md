@@ -2,7 +2,7 @@
 
 InfluxDB reporter integration for Metrics.NET.
 
-Current version: **v0.3.7**
+Current version: **v0.5.0-pre**
 
 This library provides support for InfluxDB reporters using the [Metrics.NET](https://github.com/Recognos/Metrics.NET) monitoring and reporting library.
 
