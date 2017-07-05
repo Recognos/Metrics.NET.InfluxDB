@@ -1,1 +1,1 @@
-..\.nuget\nuget.exe push Metrics.NET.InfluxDbReporting.0.5.0-pre.nupkg -Source https://www.nuget.org
+..\.nuget\nuget.exe push Metrics.NET.InfluxDbReporting.0.5.0.nupkg -Source https://www.nuget.org
